@@ -44,6 +44,11 @@ git clone https://github.com/godlygeek/csapprox ~/.vim/bundle/csapprox
 #Conque-Shell. Console window in vim
 #https://github.com/vim-scripts/Conque-Shell
 git clone https://github.com/vim-scripts/Conque-Shell ~/.vim/bundle/conque-shell
+#Last version 2.2@1 desn't working
+#Checkout to the version 2.2
+cd ~/.vim/bundle/conque-shell
+git checkout tags/2.2
+
 
 #.vimrc - конфигурационный файл VIM
 cat << EOF > ~/.vimrc
